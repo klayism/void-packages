@@ -1,6 +1,6 @@
 # Template file for 'SDL3_image'
 pkgname=SDL3_image
-version=3.2.4
+version=3.4.0
 revision=1
 build_style=cmake
 hostmakedepends="pkg-config"
@@ -12,7 +12,7 @@ license="Zlib"
 homepage="https://github.com/libsdl-org/SDL_image"
 changelog="https://raw.githubusercontent.com/libsdl-org/SDL_image/CHANGES.txt"
 distfiles="https://github.com/libsdl-org/SDL_image/releases/download/release-${version}/SDL3_image-${version}.tar.gz"
-checksum=a725bd6d04261fdda0dd8d950659e1dc15a8065d025275ef460d32ae7dcfc182
+checksum=2ceb75eab4235c2c7e93dafc3ef3268ad368ca5de40892bf8cffdd510f29d9d8
 
 post_install() {
 	vlicense LICENSE.txt LICENSE
